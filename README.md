@@ -1,6 +1,6 @@
 # envs [![.github/workflows/check.yml](https://github.com/moznion/envs/actions/workflows/check.yml/badge.svg)](https://github.com/moznion/envs/actions/workflows/check.yml) [![codecov](https://codecov.io/gh/moznion/envs/branch/main/graph/badge.svg?token=81AO4XSLSH)](https://codecov.io/gh/moznion/envs)
 
-a mapper of ENVironment variables to Structure for Go.
+a mapper of <b>ENV</b>ironment variables to a <b>S</b>tructure for Go.
 
 This library maps the environment variables to the struct according to the fields' types and tags.  
 Currently, it supports the following field types: string, int64, float64, bool, and the pointer for them.
