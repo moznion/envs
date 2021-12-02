@@ -26,9 +26,9 @@ var (
 //
 // For example, if the following structure has given to this function,
 //
-// type StructuredEnv struct {
+//	type StructuredEnv struct {
 //		Foo string `envs:"FOO"`
-// }
+//	}
 //
 // The environment variable of `FOO` is mapped into `StructuredEnv#Foo` field according to the field type.
 // Currently, it supports the following field types: string, int64, float64, bool, and the pointer for them.
