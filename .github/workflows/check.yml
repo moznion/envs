@@ -21,7 +21,7 @@ jobs:
     - name: check
       run: make check
     - name: upload coverage
-      uses: codecov/codecov-action@v2
+      uses: codecov/codecov-action@v7
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
 
